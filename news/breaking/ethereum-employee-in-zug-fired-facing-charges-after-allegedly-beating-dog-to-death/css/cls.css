@@ -1,0 +1,186 @@
+body {
+	--fsAddBuffer: 0px;
+}
+[id='apnews_home_feed_dynamic'],
+[id='apnews_nativo_backfill'],
+[id='apnews_story_feed_dynamic'],
+[id='apnews_hub_curated'],
+[id='apnews_hub_mobile'],
+[id='apnews_home_mobile_dynamic'],
+[id='apnews_hub_feed_dynamic'],
+[id='apnews_hub_feed'],
+[id='apnews_hub_mobile_dynamic'],
+[id='apnews_story_rail_sticky'],
+[id='apnews_hub_rail_small'],
+[id='apnews_hub_rail'],
+[id='apnews_home_mobile'],
+[id='apnews_home_curated'],
+[id='apnews_home_rail_small'],
+[id='apnews_leaderboard'],
+[id='apnews_story_rail_large'],
+[id='apnews_home_rail_large'],
+[id='apnews_home_feed'],
+[id='apnews_hub_rail_large'],
+[id='apnews_home_rail_sticky'],
+[id='apnews_story_feed'],
+[id='apnews_home_rail'],
+[id='apnews_hub_rail_sticky'],
+[id='apnews_video_rail'] {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	min-height: calc(var(--height) + var(--fsAddBuffer));
+	height: calc(var(--height) + var(--fsAddBuffer));
+	width: 100%;
+}
+[id='apnews_home_curated'] {
+		--height: 280px;
+}
+[id='apnews_home_feed'] {
+		--height: 280px;
+}
+[id='apnews_home_feed_dynamic'] {
+		--height: 280px;
+}
+[id='apnews_home_mobile'] {
+		--height: 280px;
+}
+[id='apnews_home_mobile_dynamic'] {
+		--height: 280px;
+}
+[id='apnews_home_rail'] {
+		--height: 250px;
+}
+[id='apnews_home_rail_large'] {
+		--height: 250px;
+}
+[id='apnews_home_rail_small'] {
+		--height: 250px;
+}
+[id='apnews_hub_curated'] {
+		--height: 280px;
+}
+[id='apnews_hub_feed'] {
+		--height: 280px;
+}
+[id='apnews_hub_feed_dynamic'] {
+		--height: 280px;
+}
+[id='apnews_hub_mobile'] {
+		--height: 280px;
+}
+[id='apnews_hub_mobile_dynamic'] {
+		--height: 280px;
+}
+[id='apnews_hub_rail'] {
+		--height: 250px;
+}
+[id='apnews_hub_rail_large'] {
+		--height: 250px;
+}
+[id='apnews_hub_rail_small'] {
+		--height: 250px;
+}
+[id='apnews_leaderboard'] {
+		--height: 50px;
+}
+[id='apnews_nativo_backfill'] {
+		--height: 280px;
+}
+[id='apnews_story_feed'] {
+		--height: 280px;
+}
+[id='apnews_story_feed_dynamic'] {
+		--height: 280px;
+}
+[id='apnews_story_rail_large'] {
+		--height: 250px;
+}
+@media only screen and (min-width: 768px) {
+	[id='apnews_home_curated'] {
+		--height: 280px;
+	}
+	[id='apnews_home_mobile'] {
+		display: none; 
+	}
+	[id='apnews_home_rail_small'] {
+		--height: 250px;
+	}
+	[id='apnews_hub_mobile'] {
+		display: none; 
+	}
+	[id='apnews_hub_mobile_dynamic'] {
+		display: none; 
+	}
+	[id='apnews_hub_rail_small'] {
+		--height: 250px;
+	}
+	[id='apnews_leaderboard'] {
+		--height: 90px;
+	}
+}
+@media only screen and (min-width: 1024px) {
+	[id='apnews_home_curated'] {
+		--height: 280px;
+	}
+	[id='apnews_home_mobile_dynamic'] {
+		display: none; 
+	}
+	[id='apnews_home_rail'] {
+		--height: 600px;
+	}
+	[id='apnews_home_rail_large'] {
+		--height: 600px;
+	}
+	[id='apnews_home_rail_sticky'] {
+		--height: 600px;
+	}
+	[id='apnews_hub_curated'] {
+		--height: 280px;
+	}
+	[id='apnews_hub_rail'] {
+		--height: 600px;
+	}
+	[id='apnews_hub_rail_large'] {
+		--height: 600px;
+	}
+	[id='apnews_hub_rail_sticky'] {
+		--height: 600px;
+	}
+	[id='apnews_leaderboard'] {
+		--height: 250px;
+	}
+	[id='apnews_story_rail_large'] {
+		--height: 600px;
+	}
+	[id='apnews_story_rail_sticky'] {
+		--height: 600px;
+	}
+	[id='apnews_video_rail'] {
+		--height: 600px;
+	}
+}
+@media only screen and (min-width: 1440px) {
+	[id='apnews_home_feed'] {
+		--height: 250px;
+	}
+	[id='apnews_home_feed_dynamic'] {
+		--height: 280px;
+	}
+	[id='apnews_hub_feed'] {
+		--height: 280px;
+	}
+	[id='apnews_hub_feed_dynamic'] {
+		--height: 280px;
+	}
+	[id='apnews_nativo_backfill'] {
+		--height: 280px;
+	}
+	[id='apnews_story_feed'] {
+		--height: 250px;
+	}
+	[id='apnews_story_feed_dynamic'] {
+		--height: 250px;
+	}
+}
